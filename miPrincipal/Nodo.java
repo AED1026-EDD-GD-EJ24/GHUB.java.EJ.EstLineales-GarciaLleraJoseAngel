@@ -19,7 +19,7 @@ public class Nodo<T>{
         this.valor=valor;
     }
     //Devuelve el atributo siguiente
-    public getSiguiente(){
+    public Nodo<T> getSiguiente(){
         return siguiente;
     }
     //Modifica el atributo siguiente

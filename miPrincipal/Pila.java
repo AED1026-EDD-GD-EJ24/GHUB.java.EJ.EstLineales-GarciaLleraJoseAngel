@@ -1,5 +1,5 @@
 package miPrincipal;
-public class Pila {
+public class Pila <T>{
     //Atributo cabeza apunta al tope de la pila
     private Nodo<T> cabeza;
     //Atributo tamanio almacena el total de elementos de la pila
