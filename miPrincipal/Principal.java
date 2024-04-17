@@ -3,7 +3,7 @@ package miPrincipal;
 import java.util.Scanner;
 
 public class Principal {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws PosicionIlegalException  {
         Scanner consola = new Scanner(System.in);
         int opc =0;
         do{
@@ -19,6 +19,7 @@ public class Principal {
             System.out.println(" 7) Tablas de Dispersion");
             System.out.println(" 8) Estructura Combinada");
             System.out.println(" 9) Lista simplemente enlazada");
+            System.out.println("10) ArrayList y LinkedList");
 
 
             System.out.println();
@@ -47,10 +48,13 @@ public class Principal {
                 case 7:
                    DemoTablaDispersion.menu();
                 case 8:
-                     DemoEstructuraCombinada.menu();
+                     DemoEstCombinada.menu();
                      break;
                 case 9:
                      DemoListaSimple.menu();
+                     break;
+                case 10:
+                     DemoArrayListyLinkedList.menu();
                      break;
                 case 0:
                     System.out.println("ADIOS!");
