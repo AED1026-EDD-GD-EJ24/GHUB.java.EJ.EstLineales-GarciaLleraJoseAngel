@@ -3,7 +3,7 @@ import java.util.Hashtable;
 import java .util.LinkedList;
 import java.util.Collection;
 
-public class DemoEstructuraCombinada {
+public class DemoEstCombinada {
     public static void menu(){
         System.err.println("*****************************");
         System.out.println("     ESTRUCTURA COMBINADA    ");
